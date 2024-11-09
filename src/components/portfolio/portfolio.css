@@ -1,0 +1,119 @@
+.work-filters {
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.work-item {
+    cursor: pointer;
+    font-weight: var(--font-bold);
+    transition: .3s;
+}
+
+.work-image {
+    padding: 1.875rem;
+}
+
+.work-item:hover {
+    color: var(--first-color);
+}
+
+.work-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.work-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.work-mask {
+    background: #F3BDC1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+
+.work-card:hover .work-mask {
+    opacity: .9;
+}
+
+.work-category {
+    color: #fff;
+    background-color: var(--first-color);
+    border-bottom-left-radius: .98rem;
+    border-bottom-right-radius: .98rem;
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: .2rem .75rem;
+    transform: translateY(-50px);
+    transition: .3s;
+}
+
+.work-title {
+    color: var(--body-color);
+    font-size: var(--h3-font-size);
+    margin: 0 0 0 .98rem;
+    padding: 0 1.25rem;
+    position: absolute;
+    top: 3.75rem;
+    transform: translateY(30px);
+    transition: .3s;
+    opacity: 0;
+}
+
+.work-link {
+    color: var(--first-color);
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color: var(--body-color);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.work-card:hover .work-link {
+    opacity: 1;
+}
+
+.work-card:hover .work-title,
+.work-card:hover .work-category {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width:800px) {
+    .work-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .work-container {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+    .work-item {
+        font-weight: var(--font-bold);
+        font-size: var(--small-font-size);
+    }
+}
