@@ -112,7 +112,7 @@
 
 .about-icon {
     font-size: var(--h1-font-size);
-    color: #F7DED0;
+    color: var(--first-color);
 }
 
 /* .box-title {
