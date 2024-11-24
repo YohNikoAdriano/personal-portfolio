@@ -5,22 +5,25 @@ import WorkedOn from "../../assets/stopwatch.png"
 
 const PortfolioData = [
   {
-      id: 1,
-      image: Work1,
-      title: "Live Weather Information",
-      category: 'Website Development'
+    id: 1,
+    image: Work1,
+    title: "Live Weather Information",
+    category: 'Website Development',
+    link:"https://nikoadriano-live-weather.vercel.app/"
   },
   {
     id: 2,
     image: Work2,
     title: "Convinience Store",
-    category: 'Website Development'
+    category: 'Website Development',
+    link:"https://nikoadriano-live-weather.vercel.app/"
   },
   {
     id: 3,
     image: WorkedOn,
     title: "Work in Progress...",
-    category: 'Website Development'
+    category: 'Website Development',
+    link:"https://nikoadriano-live-weather.vercel.app/"
   },
 ]
 
