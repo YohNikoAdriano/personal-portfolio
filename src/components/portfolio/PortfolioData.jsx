@@ -7,7 +7,7 @@ const PortfolioData = [
   {
     id: 1,
     image: Work1,
-    title: "Live Weather Information",
+    title: "Live Weather Application",
     category: 'Website Development',
     link:"https://nikoadriano-live-weather.vercel.app/"
   },

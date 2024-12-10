@@ -13,7 +13,7 @@ const About = () => {
       <div className="about-data grid">
         <div className='about-resume'>
           <img src={FotoAbout} alt="Foto Formal" className='about-img'/>
-          <a href="https://drive.google.com/file/d/1fQZpJrfNRTtQLPgxOU19LE8PjGHNQIq5/view?usp=sharing" className='btn resume'>My Resume!</a>
+          <a href="https://drive.google.com/file/d/1RYCtFOEFsAxbKxll0kWcxlapVGlZvoC2/view?usp=sharing" className='btn resume'>My Resume!</a>
         </div>
         <div className="about-info">
           <p className='about-desc'>
