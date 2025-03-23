@@ -53,6 +53,16 @@ const About = () => {
 
           <div className="skills-data">
             <div className="skills-title">
+              <h3 className="skills-name">Next JS</h3>
+              <span className='skills-number'>60%</span>
+            </div>
+            <div className="skills-bar">
+              <span className='skills-percentage next'></span>
+            </div>
+          </div>
+
+          <div className="skills-data">
+            <div className="skills-title">
               <h3 className="skills-name">Node JS</h3>
               <span className='skills-number'>60%</span>
             </div>

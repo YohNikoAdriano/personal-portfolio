@@ -14,9 +14,9 @@ const PortfolioData = [
   {
     id: 2,
     image: Work2,
-    title: "Convinience Store",
+    title: "Connectify",
     category: 'Website Development',
-    link:"https://nikoadriano-live-weather.vercel.app/"
+    link:"https://nikoadriano-connectify.vercel.app/"
   },
   {
     id: 3,

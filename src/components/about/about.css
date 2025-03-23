@@ -90,6 +90,11 @@
     background-color: #A7E6FF;
 }
 
+.next {
+    width: 60%;
+    background-color: #727D73;
+}
+
 .node {
     width: 60%;
     background-color: #5F8670;
