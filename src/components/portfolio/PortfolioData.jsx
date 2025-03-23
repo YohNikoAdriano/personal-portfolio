@@ -1,4 +1,3 @@
-import React from 'react'
 import Work1 from "../../assets/work1.png"
 import Work2 from "../../assets/work2.png"
 import WorkedOn from "../../assets/stopwatch.png"
